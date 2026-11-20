@@ -17,7 +17,7 @@ Supports `tg5040` (TrimUI Smart Pro, TrimUI Brick), `tg5050` (TrimUI Smart Pro S
 
 ## Requirements
 
-- **NextUI** with MinArch hardware-rendering support (`SET_HW_RENDER` and Dreamcast GD-ROM RetroAchievements support).
+- **NextUI `v6.15.0+`** — this pre-release bundles a patched `minarch.elf` (`SET_HW_RENDER`, audio batch frame-count fix, and Dreamcast GD-ROM RetroAchievements hashing) under `bin/$PLATFORM/minarch.elf`, so no NextUI system files need to be replaced.
 - Compatible handheld:
   - **tg5040**: TrimUI Smart Pro, TrimUI Brick (Allwinner A133p / PowerVR GE8300)
   - **tg5050**: TrimUI Smart Pro S, TrimUI Brick Pro
