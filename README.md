@@ -2,7 +2,7 @@
 
 A high-performance Sega Dreamcast emulator pak for [NextUI](https://github.com/LoveRetro/NextUI) powered by [Flycastrophe](https://github.com/Helaas/Flycastrophe) (an optimized fork of Flycast) and MinArch hardware-accelerated rendering (`SET_HW_RENDER`).
 
-Supports both `tg5040` (TrimUI Smart Pro, TrimUI Brick, TrimUI Brick Pro) and `h700` (Anbernic RG35XX series) devices running NextUI.
+Supports `tg5040` (TrimUI Smart Pro, TrimUI Brick), `tg5050` (TrimUI Smart Pro S, TrimUI Brick Pro), and `h700` (Anbernic RG35XX series) devices running NextUI.
 
 ---
 
@@ -19,7 +19,8 @@ Supports both `tg5040` (TrimUI Smart Pro, TrimUI Brick, TrimUI Brick Pro) and `h
 
 - **NextUI** with MinArch hardware-rendering support (`SET_HW_RENDER` and Dreamcast GD-ROM RetroAchievements support).
 - Compatible handheld:
-  - **tg5040**: TrimUI Smart Pro, TrimUI Brick, TrimUI Brick Pro (Allwinner A133p / PowerVR GE8300)
+  - **tg5040**: TrimUI Smart Pro, TrimUI Brick (Allwinner A133p / PowerVR GE8300)
+  - **tg5050**: TrimUI Smart Pro S, TrimUI Brick Pro
   - **h700**: Anbernic RG35XX Plus, RG35XX H, RG35XX SP, RG40XX (Allwinner H700 / Mali-G31 MP2)
 
 ---

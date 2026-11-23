@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [tg5040, h700]
+        platform: [tg5040, tg5050, h700]
 
     steps:
       - name: Checkout repository
@@ -48,6 +48,12 @@ jobs:
         with:
           name: core-tg5040
           path: build/cores/tg5040
+
+      - name: Download tg5050 core
+        uses: actions/download-artifact@v4
+        with:
+          name: core-tg5050
+          path: build/cores/tg5050
 
       - name: Download h700 core
         uses: actions/download-artifact@v4
